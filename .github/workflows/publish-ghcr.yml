@@ -3,7 +3,7 @@ on:
     push
 jobs:
     build_and_publish:
-        runs-son: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
             - name: Build and push the image
